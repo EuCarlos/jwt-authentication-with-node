@@ -1,0 +1,35 @@
+### testing API
+GET http://localhost:8081/
+
+### user registration route
+POST http://localhost:8081/auth/signup
+Content-Type: application/json
+
+{
+    "name": "name example",
+    "email": "contato@example.dev",
+    "password": "123456admin"
+}
+
+### use authentication route
+POST http://localhost:8081/auth/login
+Content-Type: application/json
+
+{
+    "email": "contato@example.dev",
+    "password": "123456admin"
+}
+
+### all users
+GET http://localhost:8081/auth/all
+Content-Type: application/json
+
+### public posts
+GET http://localhost:8081/post/public
+Content-Type: application/json
+
+### private posts
+GET http://localhost:8081/post/private
+Content-Type: application/json
+Authorization: x-auth-token TOKEN
+ 
