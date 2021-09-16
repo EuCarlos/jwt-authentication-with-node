@@ -14,3 +14,28 @@ Dedicated repositorio for creating a code template for authentication using JSON
 - [x] JSON Web Tokens
 - [x] Login in Route
 - [x] Protecting Routes with Middleware
+
+### Installation
+Clone the repo:
+```
+git clone https://github.com/EuCarlos/jwt-authentication-with-node.git && cd jwt-authentication-with-node
+```
+**Install the dependencies:**
+Using NPM
+```
+npm install
+```
+
+### Run the project
+Start a node server:
+```
+npm start
+```
+run the project as **development** to monitor for any changes in your source and automatically restart your server:
+```
+npm run dev
+```
+Unit tests using Jest:
+```
+npm run test
+```
